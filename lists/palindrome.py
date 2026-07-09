@@ -1,8 +1,17 @@
-palin1 = [1,5,6,5,4]
-palin2 = [1,2,3,4,5]
+def is_palindrome(lst):    
+    left = 0
+    right = len(lst) - 1
+    
+    while left < right:
+        if lst[left] != lst[right]:
+            return "Not Palindrome"
+        left += 1
+        right -= 1
+    
+    return "Palindrome"
 
-copy_palin1 = palin1.copy()
-copy_palin1.reverse()
+palin1 = [1, 5, 6, 5, 1]
+palin2 = [1, 2, 3, 4, 5]
 
-if(copy_palin1 == palin1):
-    print("Palindrome")
+print(is_palindrome(palin1))  # Palindrome
+print(is_palindrome(palin2))  # Not Palindrome
