@@ -8,3 +8,7 @@ datatypes
 strings
 <br>
 conditional statements
+<br>
+Tuples
+<br>
+lists

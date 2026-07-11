@@ -1,17 +1,10 @@
-def is_palindrome(lst):    
-    left = 0
-    right = len(lst) - 1
-    
-    while left < right:
-        if lst[left] != lst[right]:
-            return "Not Palindrome"
-        left += 1
-        right -= 1
-    
-    return "Palindrome"
+palin1 = ['l', 'e', 'v', 'e', 'l']
 
-palin1 = [1, 5, 6, 5, 1]
-palin2 = [1, 2, 3, 4, 5]
+copy_palin= palin1.copy()
+copy_palin.reverse()
 
-print(is_palindrome(palin1))  # Palindrome
-print(is_palindrome(palin2))  # Not Palindrome
+if(palin1 == copy_palin):
+    print("Palindrome")
+else:
+    print("Not palindrome")
+    
