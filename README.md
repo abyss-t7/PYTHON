@@ -1,14 +1,22 @@
 # PYTHON
 Python Programming.
 ## Topic
-variables
+Variables
 <br>
-datatypes
+Datatypes
 <br>
-strings
+Strings
 <br>
-conditional statements
+Conditional statements
 <br>
 Tuples
 <br>
 lists
+<br>
+Sets
+<br>
+Loops
+<br>
+Patterns
+<br>
+Functions
