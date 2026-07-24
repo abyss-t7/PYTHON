@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Python Check') {
             steps {
+                echo "=== This is it guys ===="
                 sh 'python3 --version'
                 sh 'python3 -c "import sys; print(sys.path)"'
             }
